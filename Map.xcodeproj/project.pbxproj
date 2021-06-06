@@ -11,6 +11,7 @@
 		1D542E89266D37EF00CC8238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D542E88266D37EF00CC8238 /* ContentView.swift */; };
 		1D542E8B266D37F100CC8238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D542E8A266D37F100CC8238 /* Assets.xcassets */; };
 		1D542E8E266D37F100CC8238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D542E8D266D37F100CC8238 /* Preview Assets.xcassets */; };
+		1D542E97266D38E800CC8238 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D542E96266D38E700CC8238 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1D542E8A266D37F100CC8238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D542E8D266D37F100CC8238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D542E8F266D37F100CC8238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D542E96266D38E700CC8238 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D542E97266D38E800CC8238 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			children = (
 				1D542E85266D37EF00CC8238 /* Map */,
 				1D542E84266D37EF00CC8238 /* Products */,
+				1D542E95266D38E700CC8238 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +71,14 @@
 				1D542E8D266D37F100CC8238 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D542E95266D38E700CC8238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D542E96266D38E700CC8238 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
